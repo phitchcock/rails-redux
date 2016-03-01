@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Redux of Rails}
   spec.description   = %q{This is a redux of rails}
-  spec.homepage      = "www.whatever.com"
+  spec.homepage      = "http://petehitchcock.com"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

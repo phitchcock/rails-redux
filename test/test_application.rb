@@ -4,7 +4,7 @@ class TestApp < Redux::Application
 end
 
 class ReduxAppTest < Test::Unit::TestCase
-  include Rack::Test:Methods
+  include Rack::Test::Methods
 
   def app
     TestApp.new
@@ -15,6 +15,6 @@ class ReduxAppTest < Test::Unit::TestCase
 
     assert last_response.ok?
     body = last_response.body
-    asssert body["Hello"]
+    assert body["Hello"]
   end
 end

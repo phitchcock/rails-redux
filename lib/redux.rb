@@ -1,4 +1,5 @@
 require "redux/version"
+require "redux/array"
 
 module Redux
   class Application
